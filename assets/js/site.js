@@ -1,0 +1,7 @@
+﻿const header=document.querySelector('.site-header');const toggle=document.querySelector('.mobile-toggle');const nav=document.querySelector('.nav-links');
+addEventListener('scroll',()=>header?.classList.toggle('scrolled',scrollY>8));
+toggle?.addEventListener('click',()=>{const open=nav.classList.toggle('open');document.body.classList.toggle('menu-open',open);toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});
+nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');document.body.classList.remove('menu-open');toggle?.setAttribute('aria-expanded','false');if(toggle)toggle.textContent='☰'}));
+document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const open=item.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));btn.querySelector('span:last-child').textContent=open?'−':'+'}));
+const form=document.querySelector('#order-form');form?.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;form.hidden=true;document.querySelector('.success')?.classList.add('show');document.querySelector('.success')?.focus()});
+const params=new URLSearchParams(location.search);const service=params.get('service');const serviceField=document.querySelector('#service-context');if(service&&serviceField){serviceField.value=service;document.querySelector('#service-note').textContent='Wybrany obszar: '+service.replaceAll('-',' ')}
