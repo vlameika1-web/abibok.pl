@@ -16,7 +16,7 @@ Wyłącznie **ABIBOK**. Druga litera **B** w logo jest odbita lustrzanie w pozio
 
 ### 1. Hero
 
-Eyebrow `USŁUGI DOMOWE · WARSZAWA`; H1 `Domowe naprawy bez stresu.`; lead `ABIBOK zajmie się domowymi sprawami, a Ty zachowasz czas na to, co naprawdę ważne.` CTA `Zamów usługę`, `Zadzwoń`; trust line `Warszawa · Jasne zasady · Wizyta od 300 zł`.
+Eyebrow `USŁUGI DOMOWE · WARSZAWA`; H1 `Domowe naprawy bez stresu.`; lead `ABIBOK zajmie się domowymi sprawami, a Ty zachowasz czas na to, co naprawdę ważne.` CTA `Zamów usługę`, `Zadzwoń`; trust line `Warszawa · Jasne zasady · Wizyta od 390 zł`.
 
 ### 2. W czym możemy Ci pomóc?
 
@@ -53,9 +53,9 @@ Lead `Cztery proste kroki. Resztą zajmie się ABIBOK.`
 
 Lead `Prosto i bez długiego cennika.`
 
-- **Wizyta specjalisty — od 300 zł**, do 1 godziny pracy.
-- **Każda kolejna godzina — od 100 zł.**
-- **Prace elektryczne — od 400 zł**, wykonywane przez specjalistę z wymaganymi kwalifikacjami.
+- **Wizyta specjalisty — od 390 zł**, do 1 godziny pracy.
+- **Każda kolejna godzina — +120 zł.**
+- **Prace elektryczne — od 490 zł**, wykonywane przez specjalistę z wymaganymi kwalifikacjami.
 
 `Materiały, jeśli są potrzebne, rozliczane są oddzielnie.` **Znasz przewidywany koszt przed wizytą.** `Przed rozpoczęciem pracy potwierdzamy zakres oraz przewidywaną cenę. Bez niespodzianek.` Bez długiej tabeli; „od” musi być widoczne.
 
@@ -81,7 +81,7 @@ Lead `Chcemy, żeby korzystanie z ABIBOK było tak proste, jak samo złożenie z
 
 ### 9. FAQ
 
-Аккордеон с девятью вопросами: несколько работ за визит; отправка фото; цена визита; момент подтверждения цены; материалы; электрика и квалификации; зона Warszawa; отсутствие услуги в каталоге; способы заказа. Ответы: визит от 300 zł до часа, следующий час от 100 zł, электрика от 400 zł, материалы отдельно, дополнительные работы только после согласования. Под блоком: `Nie znalazłeś odpowiedzi?` и `Skontaktuj się z nami`.
+Аккордеон с девятью вопросами: несколько работ за визит; отправка фото; цена визита; момент подтверждения цены; материалы; электрика и квалификации; зона Warszawa; отсутствие услуги в каталоге; способы заказа. Ответы: визит от 390 zł до часа, следующий час +120 zł, электрика от 490 zł, материалы отдельно, дополнительные работы только после согласования. Под блоком: `Nie znalazłeś odpowiedzi?` и `Skontaktuj się z nami`.
 
 ### 10. Final CTA
 
@@ -195,4 +195,4 @@ Performance: WebP/AVIF, `srcset`, размеры изображений, lazy-lo
 
 ### Dane operacyjne obowiązujące
 
-**Godziny kontaktu:** Poniedziałek–Piątek 9:00–18:00; Sobota 9:00–15:00; Niedziela nieczynne. **Ceny:** wizyta specjalisty od 300 zł (do 1 godziny); każda kolejna godzina od 100 zł; prace elektryczne od 400 zł; materiały oddzielnie.
+**Godziny kontaktu:** Poniedziałek–Piątek 9:00–18:00; Sobota 9:00–15:00; Niedziela nieczynne. **Ceny:** wizyta specjalisty od 390 zł (do 1 godziny); każda kolejna godzina +120 zł; prace elektryczne od 490 zł; materiały oddzielnie.
