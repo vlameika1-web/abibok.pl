@@ -8,6 +8,29 @@ try{if(localStorage.getItem('abibok-cookie-consent-v1')==='granted'){gtag('conse
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18406652787"></script>
 <script>gtag('js',new Date());gtag('config','AW-18406652787');</script>
+<script>
+gtag('config', 'AW-18406652787/pVMBCI7luLQdEPP2_MhE', {
+  'phone_conversion_number': '+48 502 924 326',
+  'phone_conversion_callback': function(formatted_number, mobile_number) {
+    if (!mobile_number) return;
+    var updatePhoneLinks = function() {
+      document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+        var currentNumber = (link.getAttribute('href') || '').replace(/\D/g, '');
+        if (currentNumber !== '48502924326') return;
+        link.setAttribute('href', 'tel:' + mobile_number);
+        if ((link.textContent || '').replace(/\D/g, '') === '48502924326' && formatted_number) {
+          link.textContent = formatted_number;
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updatePhoneLinks, { once: true });
+    } else {
+      updatePhoneLinks();
+    }
+  }
+});
+</script>
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Polityka Prywatności | ABIBOK</title><meta name="description" content="Polityka prywatności ABIBOK: zasady przetwarzania danych ze zgłoszeń usług, kontaktu oraz korzystania ze strony."><link rel="canonical" href="https://abibok.pl/polityka-prywatnosci/"><meta name="robots" content="index,follow"><link rel="stylesheet" href="/assets/css/styles.css?v=6"></head><body><header class="site-header"><div class="container nav"><a class="logo" href="/" aria-label="ABIBOK"><span aria-hidden="true">ABI<span class="brand-cut">B</span>OK</span></a><nav class="nav-links" aria-label="Główna"><a href="/uslugi/">Usługi</a><a href="/#jak-to-dziala">Jak to działa</a><a href="/#ceny">Ceny</a><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><div class="lang-switch" aria-label="Language"><button type="button" data-lang="pl">PL</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="ru">RU</button></div><a class="btn btn-primary" href="/zamow-usluge/">Zamów usługę</a></nav><div class="lang-switch mobile-lang-switch" aria-label="Language"><button type="button" data-lang="pl">PL</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="ru">RU</button></div><button class="mobile-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button></div></header><main class="legal-page"><section class="page-hero"><div class="container"><p class="eyebrow">ABIBOK · Warszawa</p><h1>Polityka prywatności</h1><p>Poniżej wyjaśniamy, jakie dane mogą być przetwarzane podczas korzystania ze strony i wysyłania zgłoszenia do ABIBOK.</p></div></section><section class="section white"><div class="container legal-content"><div class="legal-notice"><p><strong>Administrator danych:</strong> Vitali Lameika</p><p><strong>Kontakt administratora:</strong> <a href="mailto:info@abibok.pl">info@abibok.pl</a></p></div>
 <h2>1. Administrator i kontakt</h2><p>Administratorem danych osobowych jest: <strong>Vitali Lameika</strong>. Kontakt administratora: <a href="mailto:info@abibok.pl">info@abibok.pl</a>.</p>
 <h2>2. Jakie dane mogą być przetwarzane?</h2><p>W zależności od sposobu kontaktu mogą to być: imię, numer telefonu, adres e-mail, jeśli został podany, adres miejsca wykonania usługi, opis zadania, przesłane zdjęcia oraz informacje potrzebne do ustalenia zakresu prac. Podczas korzystania ze strony mogą być przetwarzane także dane techniczne związane z urządzeniem, połączeniem, bezpieczeństwem strony, cookies i local storage.</p>

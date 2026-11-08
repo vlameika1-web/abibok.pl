@@ -9,6 +9,29 @@ try{if(localStorage.getItem('abibok-cookie-consent-v1')==='granted'){gtag('conse
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18406652787"></script>
 <script>gtag('js',new Date());gtag('config','AW-18406652787');</script>
+<script>
+gtag('config', 'AW-18406652787/pVMBCI7luLQdEPP2_MhE', {
+  'phone_conversion_number': '+48 502 924 326',
+  'phone_conversion_callback': function(formatted_number, mobile_number) {
+    if (!mobile_number) return;
+    var updatePhoneLinks = function() {
+      document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+        var currentNumber = (link.getAttribute('href') || '').replace(/\D/g, '');
+        if (currentNumber !== '48502924326') return;
+        link.setAttribute('href', 'tel:' + mobile_number);
+        if ((link.textContent || '').replace(/\D/g, '') === '48502924326' && formatted_number) {
+          link.textContent = formatted_number;
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updatePhoneLinks, { once: true });
+    } else {
+      updatePhoneLinks();
+    }
+  }
+});
+</script>
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Regulacja Okien i Drzwi Warszawa | ABIBOK</title><meta name="description" content="Regulacja okien i drzwi w Warszawie: zawiasy, docisk, klamki, uszczelki i problemy z domykaniem. Wyślij zdjęcia — zakres potwierdzamy przed wizytą."><link rel="canonical" href="https://abibok.pl/regulacja-okien-drzwi-warszawa/"><meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:type" content="website"><meta property="og:site_name" content="ABIBOK"><meta property="og:title" content="Regulacja Okien i Drzwi Warszawa | ABIBOK"><meta property="og:description" content="Regulacja okien i drzwi w Warszawie: zawiasy, docisk, klamki, uszczelki i problemy z domykaniem. Wyślij zdjęcia — zakres potwierdzamy przed wizytą."><meta property="og:url" content="https://abibok.pl/regulacja-okien-drzwi-warszawa/">

@@ -9,6 +9,29 @@ try{if(localStorage.getItem('abibok-cookie-consent-v1')==='granted'){gtag('conse
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18406652787"></script>
 <script>gtag('js',new Date());gtag('config','AW-18406652787');</script>
 <script>
+gtag('config', 'AW-18406652787/pVMBCI7luLQdEPP2_MhE', {
+  'phone_conversion_number': '+48 502 924 326',
+  'phone_conversion_callback': function(formatted_number, mobile_number) {
+    if (!mobile_number) return;
+    var updatePhoneLinks = function() {
+      document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+        var currentNumber = (link.getAttribute('href') || '').replace(/\D/g, '');
+        if (currentNumber !== '48502924326') return;
+        link.setAttribute('href', 'tel:' + mobile_number);
+        if ((link.textContent || '').replace(/\D/g, '') === '48502924326' && formatted_number) {
+          link.textContent = formatted_number;
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updatePhoneLinks, { once: true });
+    } else {
+      updatePhoneLinks();
+    }
+  }
+});
+</script>
+<script>
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
