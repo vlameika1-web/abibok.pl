@@ -376,6 +376,32 @@ Object.assign(translations.ru,{
 'Kto przygotowuje materiały i elementy montażowe?':'Кто подготавливает материалы и крепёж?',
 'W zgłoszeniu podaj, jakie produkty, części i elementy montażowe są już na miejscu. Przed wizytą ustalimy, co należy przygotować i czy potrzebne są dodatkowe materiały. Materiały i części rozliczamy oddzielnie.':'В заявке укажите, какие изделия, детали и крепёж уже находятся на месте. До визита мы согласуем, что нужно подготовить и потребуются ли дополнительные материалы. Материалы и детали оплачиваются отдельно.'
 });
+Object.assign(translations.en,{
+'podstawowe ustawienie, wypoziomowanie i regulacja po złożeniu,':'basic positioning, levelling and adjustment after assembly,',
+'mocowanie mebla do ściany po ocenie warunków technicznych.':'furniture wall fixing after assessing the technical conditions.',
+'Składamy standardowe meble dostarczone w paczkach: szafy, komody, regały, stoły, biurka, łóżka i inne systemy przeznaczone do samodzielnego montażu. Możesz zgłosić kilka mebli podczas jednej wizyty — podaj modele, liczbę paczek i pomieszczenia, w których mają stanąć. Po złożeniu wykonujemy podstawowe ustawienie, wypoziomowanie i regulację elementów, jeśli pozwala na to konstrukcja mebla.':'We assemble standard flat-pack furniture: wardrobes, chests of drawers, shelving units, tables, desks, beds and other self-assembly systems. You can request several pieces during one visit—provide the models, number of packages and destination rooms. After assembly, we carry out basic positioning, levelling and adjustment where the furniture design allows it.',
+'Meble mocujemy do ściany, jeśli wymaga tego instrukcja producenta lub jest to konieczne ze względów bezpieczeństwa. Możliwość montażu zależy od konstrukcji mebla, rodzaju i stanu ściany oraz dostępnych mocowań. Potrzebne materiały i elementy mocujące potwierdzamy przed wizytą.':'We fix furniture to the wall when required by the manufacturer instructions or necessary for safety reasons. Whether this is possible depends on the furniture design, the type and condition of the wall, and the available fixings. We confirm the required materials and mounting hardware before the visit.',
+'Wyślij listę mebli':'Send the furniture list',
+'Podaj modele i wskaż, w których pomieszczeniach mają stanąć.':'Provide the models and indicate the rooms where they will be placed.',
+'Zdjęcie pomieszczenia pozwala ocenić dostęp i przestrzeń do składania.':'A photo of the room helps us assess access and the space available for assembly.',
+'Wskaż priorytety':'Set your priorities',
+'Zaznacz, które meble powinny zostać złożone w pierwszej kolejności.':'Indicate which pieces should be assembled first.',
+'Potwierdzamy przewidywany czas pracy':'We confirm the estimated working time',
+'Na podstawie całej listy potwierdzamy realny zakres i przewidywany czas wizyty.':'Based on the complete list, we confirm a realistic scope and estimated duration for the visit.'
+});
+Object.assign(translations.ru,{
+'podstawowe ustawienie, wypoziomowanie i regulacja po złożeniu,':'базовая установка, выравнивание и регулировка после сборки,',
+'mocowanie mebla do ściany po ocenie warunków technicznych.':'крепление мебели к стене после оценки технических условий.',
+'Składamy standardowe meble dostarczone w paczkach: szafy, komody, regały, stoły, biurka, łóżka i inne systemy przeznaczone do samodzielnego montażu. Możesz zgłosić kilka mebli podczas jednej wizyty — podaj modele, liczbę paczek i pomieszczenia, w których mają stanąć. Po złożeniu wykonujemy podstawowe ustawienie, wypoziomowanie i regulację elementów, jeśli pozwala na to konstrukcja mebla.':'Мы собираем стандартную мебель в упаковках: шкафы, комоды, стеллажи, столы, письменные столы, кровати и другие системы для самостоятельной сборки. Можно заявить несколько предметов на один визит — укажите модели, число упаковок и помещения. После сборки выполняем базовую установку, выравнивание и регулировку элементов, если это допускает конструкция мебели.',
+'Meble mocujemy do ściany, jeśli wymaga tego instrukcja producenta lub jest to konieczne ze względów bezpieczeństwa. Możliwość montażu zależy od konstrukcji mebla, rodzaju i stanu ściany oraz dostępnych mocowań. Potrzebne materiały i elementy mocujące potwierdzamy przed wizytą.':'Мы крепим мебель к стене, если этого требует инструкция производителя или это необходимо из соображений безопасности. Возможность крепления зависит от конструкции мебели, типа и состояния стены, а также имеющегося крепежа. Необходимые материалы и крепёжные элементы согласуем до визита.',
+'Wyślij listę mebli':'Отправьте список мебели',
+'Podaj modele i wskaż, w których pomieszczeniach mają stanąć.':'Укажите модели и помещения, в которых они будут установлены.',
+'Zdjęcie pomieszczenia pozwala ocenić dostęp i przestrzeń do składania.':'Фотография помещения помогает оценить доступ и место для сборки.',
+'Wskaż priorytety':'Укажите приоритеты',
+'Zaznacz, które meble powinny zostać złożone w pierwszej kolejności.':'Отметьте, какую мебель следует собрать в первую очередь.',
+'Potwierdzamy przewidywany czas pracy':'Подтверждаем предполагаемое время работы',
+'Na podstawie całej listy potwierdzamy realny zakres i przewidywany czas wizyty.':'На основе полного списка подтверждаем реалистичный объём и предполагаемую продолжительность визита.'
+});
 const COOKIE_CONSENT_KEY='abibok-cookie-consent-v1';
 const googleConsent=value=>({ad_storage:value,ad_user_data:value,ad_personalization:value,analytics_storage:value});
 function readCookieConsent(){try{return localStorage.getItem(COOKIE_CONSENT_KEY)}catch{return null}}
